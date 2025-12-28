@@ -1,2 +1,47 @@
-# healthcare-access-simulator
-A Python-based simulation of role-based access control (RBAC) in a healthcare setting.
+# Healthcare Access Simulator
+
+## Project Overview
+This project is a Python-based simulation of role-based access control (RBAC) in a healthcare environment.  
+It models realistic access rules for different roles such as doctors, nurses, biomedical scientists, and administrators.
+
+The goal is to explore how healthcare data access can be structured securely and clearly using core software development principles.
+
+
+
+## Motivation
+I am transitioning into software development from a healthcare background and wanted to build a project that reflects:
+- real-world healthcare workflows
+- cybersecurity fundamentals (access control, least privilege)
+- clean Python design using data structures and object-oriented programming
+
+This project is being developed incrementally as part of my software development bootcamp.
+
+
+
+## Learning Goals
+- Practice Python fundamentals and data structures
+- Apply object-oriented programming concepts
+- Understand and model role-based access control (RBAC)
+- Use Git and GitHub with clear, incremental commits
+- Bridge healthcare domain knowledge with software development
+
+
+
+## Current Progress
+- Repository initialised and connected to GitHub
+- Core healthcare roles defined (Doctor, Nurse, Biomedical Scientist, Admin)
+- Permissions modelled using a role-permission mapping (RBAC)
+
+
+## Planned Next Steps
+- Implement a User class with role validation
+- Add permission-checking logic
+- Simulate access attempts and audit logging
+- Refine permissions to reflect real-world healthcare scenarios
+
+
+## Disclaimer
+This project is a learning exercise and does not represent a real clinical system.
+
+## Disclaimer
+This project is a learning exercise and does not represent a real clinical system.
