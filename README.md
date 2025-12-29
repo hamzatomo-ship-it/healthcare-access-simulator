@@ -31,10 +31,11 @@ This project is being developed incrementally as part of my software development
 - Repository initialised and connected to GitHub
 - Core healthcare roles defined (Doctor, Nurse, Biomedical Scientist, Admin)
 - Permissions modelled using a role-permission mapping (RBAC)
+- User class implemented with name and role validation
+
 
 
 ## Planned Next Steps
-- Implement a User class with role validation
 - Add permission-checking logic
 - Simulate access attempts and audit logging
 - Refine permissions to reflect real-world healthcare scenarios
@@ -43,5 +44,3 @@ This project is being developed incrementally as part of my software development
 ## Disclaimer
 This project is a learning exercise and does not represent a real clinical system.
 
-## Disclaimer
-This project is a learning exercise and does not represent a real clinical system.
