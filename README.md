@@ -32,11 +32,16 @@ This project is being developed incrementally as part of my software development
 - Core healthcare roles defined (Doctor, Nurse, Biomedical Scientist, Admin)
 - Permissions modelled using a role-permission mapping (RBAC)
 - User class implemented with name and role validation
+- Role-based add-on test requests implemented with fine-grained restrictions
+- Lab result amendment logic implemented with mandatory amendment reasons
+- Permissions enforced using both role permissions and policy checks
 
-
+## Notes
+- Doctors can request multiple add-on tests (e.g. reticulocytes, iron studies)
+- Biomedical Scientists can request blood film only
+- Only Biomedical Scientists can amend lab results, and must provide a valid reason
 
 ## Planned Next Steps
-- Add permission-checking logic
 - Simulate access attempts and audit logging
 - Refine permissions to reflect real-world healthcare scenarios
 
